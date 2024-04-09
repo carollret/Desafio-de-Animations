@@ -1,0 +1,40 @@
+body {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: center;
+    animation: pulse 3s linear 3;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+    }
+    50% {
+        background-color: plum;
+        height: 200px;
+        width: 200px;
+    }
+    100% {
+        background-color: brown;
+        height: 100px;
+        width: 100px;
+    }
+}
+.Botão{
+    position: absolute;
+    bottom: 10px;
+}   
